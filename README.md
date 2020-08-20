@@ -37,13 +37,6 @@ consists of a 3x3 convolution layer, a Relu layer, and a BatchNorm layer. Betwee
 #### Quantitative metric:
 We take Mean Squared Error as our quantitative metric. The best validation losses we have are as below.
 ![2](images/quant_metric.png)
-Model
-Simple CNN
-ResNet34 Optimized ResNet34
-Qualitative metric:
-MSE
-0.003039
-0.002318 0.002182
 
 #### Qualitative metric:
 Color quality is our qualitative metric. Some of our colorized images have even better quality than the ground truth images. We group our predicted images into three groups.
@@ -53,10 +46,6 @@ Failure group: predicted images fail to colorize a majority of objects in the im
 
 Estimated percentages of output images of our final model in each group are as follows.
 ![3](images/quali_metric.png)
-Group
-Success Medium Failure
-Percentage in total
-12.35% 69.41% 18.24%
 
 Our final model colorized around 82% of the image with an acceptable quality.
 
