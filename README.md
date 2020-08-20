@@ -65,4 +65,5 @@ We successfully developed CNN models to predict the corresponding colors given a
 
 # References
 Colorful Image Colorization Let there be Color!
+
 Image Colorization with CNN
