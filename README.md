@@ -9,10 +9,12 @@ Image colorization is a technique that turns a grayscale image into a colored on
 
 # Data
 Data Source: ​http://places2.csail.mit.edu/download.html
+
 We used the data of Places365-Standard from MIT and chose small images of size 256x256 for simplicity. The original dataset contains millions of images from 365 scene categories. Due to the limitation of time and computing resources, we only used 36,500 images from the dataset to train our model.
 
 # Previous Work
 Link: ​https://github.com/richzhang/colorization
+
 We built our model based on the code linked above. Our model differs from the previous work in the following areas:
 1. The previous work trained their model on ImageNet while we trained our model on the Places dataset.
 2. The previous work used a single-stream, VGG-styled neural network with added depth and dilated convolutions. We used the pretrained ResNet34 model and added more convolutional layers.
