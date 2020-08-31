@@ -66,6 +66,8 @@ Our model is good at predicting colors for scenery images, such as sky, grass, m
 We successfully developed CNN models to predict the corresponding colors given a grayscale image. We trained three different models, including a simple CNN, ResNet34, and ResNet34 with more added convolutional layers. The third model had the best performance in terms of both metrics and computing time. We achieved a best validation loss of 0.002182 using this model. Some of our predicted images have even higher color quality than the original version. Through this project, we became more familiar with image processing and analysis with neural networks. In the future, it would be interesting to explore using multiclass classification to solve this problem and compare the performance with the regression model.
 
 # References
-Colorful Image Colorization Let there be Color!
+Colorful Image Colorization 
+
+Let there be Color!
 
 Image Colorization with CNN
